@@ -1,4 +1,4 @@
-function add() {
+function sub() {
 
 
 var num1 = document.getElementById("firstno").value
