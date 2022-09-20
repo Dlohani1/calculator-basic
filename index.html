@@ -19,5 +19,19 @@ Result : <input type="text" id="result" /> <br/> <br/>
 <button onclick="sub()"> Subtract </button>
 <button onclick="multiply()"> Multiply </button>
 <button onclick="divide()"> Divide </button>
+<button onclick="clearAll()"> Clear </button>
+
+<script>
+
+function clearAll() {
+	document.getElementById("firstno").value = "";
+document.getElementById("secondno").value = "";
+
+document.getElementById("result").value = "";
+
+
+}
+
+</script>
 </body>
 </html>
